@@ -29,7 +29,6 @@ html {
 
 h2 {
   font-size: var(--size-h2);
-  font-weight: 700;
   font-family: var(--bion);
   text-transform: uppercase;
 }
@@ -113,16 +112,15 @@ section {
 .wr-biz {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  row-gap: 20px;
+  grid-template-rows: auto 2fr auto;
+  row-gap: 10px;
   width: 100%;
 }
 .wr-biz__foto {
-  grid-column-start: 1;
-  grid-column-end: 3;
+  grid-area: 1/1/4/3;
 }
 .wr-biz__author {
-  grid-column-start: 3;
-  grid-column-end: 6;
+  grid-area: 1/3/1/6;
   border-radius: 20px;
   padding: 13px 15px;
   background-color: var(--bg-gray);
@@ -137,24 +135,19 @@ section {
   text-align: right;
 }
 .wr-biz__title {
-  grid-column-start: 7;
-  grid-column-end: 12;
+  grid-area: 1/7/1/13;
 }
 .wr-biz__bid {
-  grid-column-start: 4;
-  grid-column-end: 12;
+  grid-area: 2/4/2/12;
 }
 .wr-biz__picture {
-  grid-column-start: 4;
-  grid-column-end: 6;
+  grid-area: 3/4/4/6;
 }
 .wr-biz__list {
-  grid-column-start: 7;
-  grid-column-end: 12;
+  grid-area: 3/7/4/12;
 }
 .wr-biz__text {
-  grid-column-start: 7;
-  grid-column-end: 11;
+  grid-area: 4/7/4/11;
 }
 .wr-biz__text span {
   color: #8d8d8d;
@@ -173,6 +166,7 @@ section {
 
 .card_hover:hover {
   justify-content: center;
+  background-color: var(--bg-dark);
 }
 .card_hover:hover .card__picture {
   width: 50%;
