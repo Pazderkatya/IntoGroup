@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Button/card</title>
-    <link rel="stylesheet" id="style" href="css/style.css">
+    <title>IntoGroup</title>
+    <link rel="stylesheet" id="style" href="style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway&display=swap" rel="stylesheet">
@@ -16,62 +16,87 @@
 <body>
     <main>
         <div class="container">
-            <button class="button bg">
-                <img src="img/bascet.png" alt="Корзина">
-                <p>Кнопочка</p>
-            </button>
-            <button class="button no-bg">
-                <img src="img/picture.png" alt="Картинка">
-                <p>Кнопочка</p>
-            </button>
-            <button class="button no">
-                <p>Кнопочка</p>
-                <img src="img/arrow.png" alt="Стрелка">
-            </button>
-            <button class="button arrow">
-                <div class="left">
-                    <p>Кнопочка</p>
+            <div class="necessity">
+                <h2><span>Проблемы, которые не оставляют шансов</span><br> Когда CRM становится необходимостью</h2>
+                <p class="necessity__text">В современном бизнесе эффективное управление клиентскими отношениями играет ключевую роль в успехе компании. Однако, с ростом объема данных и увеличением числа клиентов, многие организации сталкиваются с проблемами, которые делают внедрение
+                    CRM-системы жизненно необходимым.</p>
+                <div class="grid-card">
+                    <div class="card relationship">
+                        <div class="wr-rel">
+                            <img class="card__picture" src="img/img-6.png" alt="Картинка">
+                            <h3 class="card__title">Нехватка информации о клиентах</h3>
+                            <p class="card__text"></p>
+                        </div>
+                    </div>
+                    <div class="card relationship">
+                        <div class="wr-rel">
+                            <img class="card__picture" src="img/img-6.png" alt="Картинка">
+                            <h3 class="card__title">Разрозненные процессы
+                            </h3>
+                            <p class="card__text" style="display: none">Отсутствие единой платформы для управления продажами и маркетингом приводит к путанице и снижению эффективности работы команды. Это затрудняет совместную работу и обмен информацией.</p>
+                        </div>
+                    </div>
+                    <div class="card relationship">
+                        <div class="wr-rel">
+                            <img class="card__picture" src="img/img-6.png" alt="Картинка">
+                            <h3 class="card__title">Проблемы с удержанием клиентов</h3>
+                            <p class="card__text"></p>
+                        </div>
+                    </div>
+                    <div class="card relationship">
+                        <div class="wr-rel">
+                            <img class="card__picture" src="img/img-6.png" alt="Картинка">
+                            <h3 class="card__title">Сложности в анализе результатов</h3>
+                            <p class="card__text"></p>
+                        </div>
+                    </div>
                 </div>
-                <div class="right">
-                    <img src="img/arrow.png" alt="Стрелка">
-                </div>
-            </button>
-        </div>
-        <div class="wrapper">
-            <div class="card stand">
-                <div class="picture">
-                    <img class="foto" src="img/buket.jpeg">
-                </div>
-                <div class="title">
-                    <h2>Пионовидные розы</h2>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="31" height="16" viewBox="0 0 31 16" fill="none">
-                        <path d="M30.7071 8.70711C31.0976 8.31658 31.0976 7.68342 30.7071 7.29289L24.3431 0.928932C23.9526 0.538408 23.3195 0.538408 22.9289 0.928932C22.5384 1.31946 22.5384 1.95262 22.9289 2.34315L28.5858 8L22.9289 13.6569C22.5384 14.0474 22.5384 14.6805 22.9289 15.0711C23.3195 15.4616 23.9526 15.4616 24.3431 15.0711L30.7071 8.70711ZM0 9L30 9V7L0 7L0 9Z" fill="#373A3E"></path>
-                    </svg>
-                </div>
-            </div>
-            <div class="card bg-card">
-                <div class="bg-card__text">
-                    <h2>Розы</h2>
-                    <p>Роза - собирательное название видов и сортов представителей рода Шипо́вник. </p>
-                </div>
-                <div class="bg-card__foto">
-                    <img src="img/rozy.jpeg" alt="Розы">
+                <div class="wrapper-btn">
+                    <button class="btn bid">оставить заявку</button>
+                    <p class="wrapper-btn__text">В условиях постоянной конкуренции и быстро меняющихся рыночных условий внедрение CRM-системы становится не просто желательным, а необходимым шагом для успешного ведения бизнеса.</p>
                 </div>
             </div>
-            <div class="card sep">
-                <div class="picture">
-                    <img class="foto" src="img/kvetki.jpeg">
+            <section class="bizness">
+                <div class="wr-biz">
+                    <div class="wr-biz__foto">
+                        <img src="img/img.png" alt="">
+                    </div>
+                    <div class="wr-biz__author">
+                        <h4>20% усилий дают 80% результата</h4>
+                        <p>остальные 80% усилий — лишь 20% результата</p>
+                        <p>Закон Парето</p>
+                    </div>
+                    <h2>Преобразите свой бизнес<br><span>CRM-системы для максимальной эффективности</span></h2>
+                    <p class="wr-bix__bid">Оставьте заявку прямо сейчас, чтобы получить профессиональную помощь в выборе и настройке решения, которое идеально подойдет именно для вашего бизнеса. Наша команда готова уделять максимальное внимание вашим потребностям, предлагать
+                        наиболее оптимальные решения.</p>
+                    <div class="wr-biz__picture">
+                        <img src="img/rec.png">
+                    </div>
+                    <ul class="list">
+                        <div class="list__item"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="-1" y="13.1422" width="20" height="20" rx="4" transform="rotate(-45 -1 13.1422)" fill="#454545"/>
+                            </svg>
+                            <li>поможем централизовать информацию о клиентах</li>
+                        </div>
+                        <div class="list__item"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="-1" y="13.1422" width="20" height="20" rx="4" transform="rotate(-45 -1 13.1422)" fill="#454545"/>
+                            </svg>
+                            <li>оптимизируем процессы</li>
+                        </div>
+                        <div class="list__item"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="-1" y="13.1422" width="20" height="20" rx="4" transform="rotate(-45 -1 13.1422)" fill="#454545"/>
+                            </svg>
+                            <li>повысить уровень обслуживания</li>
+                        </div>
+                        <div class="list__item"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="-1" y="13.1422" width="20" height="20" rx="4" transform="rotate(-45 -1 13.1422)" fill="#454545"/>
+                            </svg>
+                            <li>обеспечим быструю интеграцию и обучение сотрудников</li>
+                        </div>
+                    </ul>
+                    <p class="wr-biz__text">Не упустите шанс улучшить свои бизнес-процессы и увеличить прибыль — <span>свяжитесь с нами</span> уже сегодня!</p>
                 </div>
-                <h2>Тюльпаны</h2>
-                <p>Тюльпа́н — род многолетних травянистых луковичных растений семейства Лилейные, в современных систематиках включающий более 80 видов. Центр происхождения и наибольшего разнообразия видов тюльпанов — горы северного Ирана, Памиро-Алай и Тянь-Шань.</p>
-            </div>
-            <div class="card bt">
-                <h2>Пионы</h2>
-                <p>Пио́н — род травянистых многолетников и листопадных кустарников. Единственный род семейства Пионовые, ранее род относили к семейству Лютиковых. Пионы цветут в конце весны, ценятся садоводами за пышную листву, эффектные цветы и декоративные
-                    плоды.
-                </p>
-                <button>Заказать</button>
-            </div>
+            </section>
         </div>
     </main>
 </body>

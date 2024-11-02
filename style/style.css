@@ -1,0 +1,156 @@
+@font-face {
+  font-family: "bion-bold";
+  src: url("bion-bold.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Raleway";
+}
+
+:root {
+  --size-h2: 2.25rem;
+  --size-span: 1.25rem;
+  --size-h3: 1.25rem;
+  --bion: "bion-bold";
+  --montserrat: "Montserrat";
+  --bg-gray: #F1F0F0;
+  --bg-dark: #D9D9D9;
+  --min-width: 200px;
+  --min-width-card: 310px;
+}
+
+h2 {
+  font-size: var(--size-h2);
+  font-weight: 700;
+  font-family: var(--bion);
+  text-transform: uppercase;
+}
+h2 span {
+  font-size: var(--size-span);
+}
+
+h3 {
+  font-family: var(--montserrat);
+  font-size: var(--size-h3);
+}
+
+section {
+  margin-top: 86px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.card {
+  background-color: var(--bg-gray);
+  border-radius: 20px;
+  min-width: var(--min-width-card);
+  width: 100%;
+}
+
+.necessity {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.necessity__text {
+  width: 100%;
+  max-width: 1050px;
+}
+
+.grid-card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 21px;
+  width: 100%;
+}
+
+.wr-rel {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.wrapper-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.wrapper-btn__text {
+  text-align: right;
+}
+
+.btn {
+  cursor: pointer;
+  border: none;
+  min-width: var(--min-width);
+  font-family: var(--montserrat);
+  margin: 0 auto;
+}
+
+.bid {
+  background-color: var(--bg-dark);
+  border-radius: 27px;
+  font-size: 1rem;
+}
+
+.bizness {
+  max-width: 1380px;
+  border-radius: 40px;
+}
+.bizness p {
+  font-size: 0.87rem;
+}
+
+.wr-biz {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 20px;
+  width: 100%;
+}
+.wr-biz__author {
+  border-radius: 20px;
+  padding: 13px 20px;
+  background-color: var(--bg-gray);
+  height: 80px;
+}
+.wr-biz__author h4 {
+  font-family: var(--montserrat);
+  font-weight: bold;
+  text-align: center;
+}
+.wr-biz__author p {
+  text-align: right;
+}
+.wr-biz__text span {
+  color: #8d8d8d;
+}
+
+.list {
+  list-style-type: none;
+  /*list-style-image: url('/img/squ.svg');*/
+}
+.list__item {
+  display: flex;
+  flex-direction: row;
+  font-family: var(--montserrat);
+  font-weight: bold;
+}
+.list__item svg {
+  margin-right: 8px;
+}
+.list__item:not(:last-child) {
+  margin-bottom: 12px;
+}/*# sourceMappingURL=style.css.map */
