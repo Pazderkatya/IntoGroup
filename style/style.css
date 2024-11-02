@@ -116,9 +116,15 @@ section {
   row-gap: 20px;
   width: 100%;
 }
+.wr-biz__foto {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
 .wr-biz__author {
+  grid-column-start: 3;
+  grid-column-end: 6;
   border-radius: 20px;
-  padding: 13px 20px;
+  padding: 13px 15px;
   background-color: var(--bg-gray);
   height: 80px;
 }
@@ -129,6 +135,26 @@ section {
 }
 .wr-biz__author p {
   text-align: right;
+}
+.wr-biz__title {
+  grid-column-start: 7;
+  grid-column-end: 12;
+}
+.wr-biz__bid {
+  grid-column-start: 4;
+  grid-column-end: 12;
+}
+.wr-biz__picture {
+  grid-column-start: 4;
+  grid-column-end: 6;
+}
+.wr-biz__list {
+  grid-column-start: 7;
+  grid-column-end: 12;
+}
+.wr-biz__text {
+  grid-column-start: 7;
+  grid-column-end: 11;
 }
 .wr-biz__text span {
   color: #8d8d8d;

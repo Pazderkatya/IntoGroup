@@ -116,9 +116,15 @@ section {
     grid-template-columns: repeat(12, 1fr);
     row-gap: 20px;
     width: 100%;
+    &__foto {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
     &__author {
+        grid-column-start: 3;
+        grid-column-end: 6;
         border-radius: 20px;
-        padding: 13px 20px;
+        padding: 13px 15px;
         background-color: var(--bg-gray);
         height: 80px;
         h4 {
@@ -130,7 +136,25 @@ section {
             text-align: right;
         }
     }
+    &__title {
+        grid-column-start: 7;
+        grid-column-end: 12;
+    }
+    &__bid {
+        grid-column-start: 4;
+        grid-column-end: 12;
+    }
+    &__picture {
+        grid-column-start: 4;
+        grid-column-end: 6;
+    }
+    &__list {
+        grid-column-start: 7;
+        grid-column-end: 12;
+    }
     &__text {
+        grid-column-start: 7;
+        grid-column-end: 11;
         span {
             color: #8d8d8d;
         }
