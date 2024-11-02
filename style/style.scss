@@ -114,6 +114,7 @@ section {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: auto 2fr auto;
+    column-gap: 20px;
     row-gap: 10px;
     width: 100%;
     &__foto {
@@ -135,7 +136,7 @@ section {
         }
     }
     &__title {
-        grid-area: 1/7/1/13;
+        grid-area: 1/7/1/12;
     }
     &__bid {
         grid-area: 2/4/2/12;
